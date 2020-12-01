@@ -1,0 +1,212 @@
+
+header
+{
+  background-color:#fad2e1;
+  height: 400px;
+  margin:0;
+  padding:0;
+}
+
+footer
+{
+background-color:#fad2e1;
+margin-top: -40px;
+font-family: 'Raleway', sans-serif;
+}
+
+#button_todo
+{
+  cursor: pointer;
+  border-radius: 12px;
+  height: 60px;
+  width: 200px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active
+{
+    transform: scale(1.1);
+}
+
+#button_todo
+{
+  margin-right: 40px;
+  text-align: center;
+}
+
+.flex-container
+{
+  display: flex;
+  height: 600px;
+  background-color: #fde2e4;
+}
+
+.button_etc
+{
+  background-color:#fad2e1;
+  height: 90px;
+  margin: 0px;
+  padding:0px;
+}
+
+#rights
+{
+    color:#023047;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-container > div
+{
+  background-color: #fde2e4;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+#Achievements
+{
+  color:#023047;
+  border: 3px solid #a1c3da ;
+  background-color: #c1d3fe;
+  border-radius: 14px;
+  border-color:#17252a;
+  font-family: 'Raleway', sans-serif;
+  flex: 1;
+}
+
+#Projects
+{
+  color:#023047;
+  border: 3px solid #17252a ;
+  background-color: #e2eafc;
+  border-radius: 14px;
+  border-color:#17252a;
+  font-family: 'Raleway', sans-serif;
+  flex: 1;
+}
+#bio
+{
+  color:#023047;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.social_bar
+{
+  float: right;
+}
+
+#Other_skills
+{
+  color: #023047;
+  border: 3px solid #17252a ;
+  background-color: #c1d3fe;
+  border-radius: 14px;
+  border-color:#17252a;
+  font-family: 'Raleway', sans-serif;
+  flex: 1;
+}
+span
+{
+  margin-left: 20px;
+}
+
+#album_link
+{
+  text-decoration: none;
+}
+a:hover
+{
+  color: hotpink;
+  cursor: pointer;
+}
+
+#title_main
+{
+  color:#023047;
+  padding-bottom:20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 55px;
+  margin:auto;
+  padding:20px;
+  padding-top: 30px;
+  text-align:center;
+}
+
+
+#todol
+{
+  align-items: center;
+  margin-left: 43%;
+}
+
+@media only screen and (max-width: 770px)
+{
+  .flex-container
+  {
+    flex-direction: column;
+    height: 20px;
+  }
+  header
+  {
+    background-color:#fad2e1;
+    height: 700px;
+    margin:0;
+    padding:0;
+  }
+  .flex-container
+  {
+    display: flex;
+    height: 1500px;
+    background-color: #fde2e4;
+  }
+
+  #Achievements
+  {
+    color:#023047;
+    border: 3px solid #a1c3da ;
+    background-color: #c1d3fe;
+    border-radius: 14px;
+    border-color:#17252a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    flex: 1;
+  }
+  #Other_skills
+  {
+    color: #023047;
+    border: 3px solid #17252a ;
+    background-color: #c1d3fe;
+    border-radius: 14px;
+    border-color:#17252a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    flex: 1;
+  }
+  #Projects
+  {
+    color:#023047;
+    border: 3px solid #17252a ;
+    background-color: #e2eafc;
+    border-radius: 14px;
+    border-color:#17252a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    flex: 1;
+  }
+}
